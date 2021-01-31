@@ -1,0 +1,318 @@
+
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    user-select: none;
+}
+/* styling header */
+header{
+position: relative;
+top:0;
+left: 0;
+
+
+width: 100%;
+box-shadow: 0px 0px 4px 1px rgb(238, 237, 237);
+display: flex;
+overflow: hidden;
+height: 80px;
+background-color:white;
+}
+header .div1{
+position: relative;
+top: 0;
+left: 0;
+width: 15%;
+height: 80px;
+
+}
+header .div1 img{
+width: 35%;
+margin-left: 1%;
+float: left;
+height: 100%;
+}
+header .div1 h3{
+float: right;
+width: 64%;
+line-height: 80px;
+color: orange;
+font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+
+/* div 2 */
+header .div2{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 65%;
+    box-sizing: border-box;
+    height: 80px;
+    
+}
+header .div2 li{
+    display: inline-block;
+list-style: none;
+width: 11%;
+text-align: center;
+line-height: 80px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-left: 1%;
+height: 80px;
+cursor: pointer;
+}
+
+header .div2 .active{
+  
+    border-bottom: 4px solid red;
+}
+header .div2 .actives{
+    color: red;
+}
+header .div2 li:hover{
+    border-bottom: 4px solid red;
+}
+header .div2 li:hover a{ 
+color: red;
+}
+header .div2 li a{
+    text-decoration: none;
+color: rgb(99, 98, 98);
+text-transform: capitalize;
+
+font-size: 18px;
+}
+/* div 3 */
+header .div3{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 80px;
+  
+}
+header .div3 li{
+width: 49%;
+margin-left: 1%;
+height: 80px;
+text-align: center;
+
+float: left;
+display: inline-block;
+
+    list-style: none;
+
+}
+
+header .div3 li a{
+text-decoration: none;
+font-size: 18px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+line-height: 80px;
+color: rgb(46, 75, 32);
+}
+header .div3 li:hover{
+    background-color:rgb(252, 250, 250);
+}
+.preloader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+    background-color: #f7f9ff;
+}
+.preloader img{
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 50%;
+    height: 80%;
+}
+.rss{
+    background-color: rgb(252, 250, 250);
+}
+
+.rs{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(252, 250, 250);
+}
+.registers{
+
+    position: relative;
+    top: 4.2%;
+    left:15%;
+    overflow: hidden;
+    width: 70%;
+    height: 530px;
+    border-radius: 20px;
+   border: 4px solid rgb(30, 5, 100);
+}
+.registers .div1{
+position: relative;
+top: 0;
+left: 0;
+width:40% ;
+background-color:white;
+height: 100%;
+float: left;
+}
+.registers .div1 .singup{
+position: relative;
+top: 0;
+left: 0;
+width: 100%;
+height: 60%;
+text-align: center;
+
+
+}
+.registers .div1 .singup h1{
+    padding-top: 170px;
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+}
+.registers .div1 .singup p{
+font-size: 18px;
+font-family: sans-serif;
+}
+.registers .div1 .singup button{
+margin-top: 20px;
+    width: 30%;
+    height: 40px;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: rgb(30, 5, 100);
+}
+.registers .div1 .desg{
+position: relative;
+
+bottom: 0;
+left: 0;
+width: 100%;
+height: 40%;
+
+
+
+}
+.registers .div1 .desg img{
+    width: 100%;
+    height: 100%;
+}
+.registers .div2{
+ position: relative;
+ top: 0;
+ left: 0;
+ float: left;
+ width:60% ;
+background-color: white;
+ height: 100%;   
+}
+.registers .div2 h1{
+padding-top: 30px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.registers .div2 p{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.registers .div2 form{
+
+}
+.registers .div2 form h1{
+    width: 50%;
+    float: left;
+  color:rgb(30, 5, 100);
+    font-size: 16px;
+}
+.registers .div2 form h2{
+    width: 100%;
+    margin-top: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+   padding-left: 105px;
+  color:rgb(30, 5, 100);
+    font-size: 16px;
+}
+.registers .div2 form #cb{
+    margin-top: 19px;
+   
+    margin-left: 90px;
+}
+.registers .div2 form span{
+    color: rgb(224, 105, 8);
+}
+.registers .div2 form button{
+    margin-left: 83px;
+    margin-top: 20px;
+    width: 82%;
+    height: 40px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(30, 5, 100);
+}
+.registers .div2 form input:focus{
+    outline: none;
+    /* border: none; */
+}
+/* footer styling */
+footer{
+    clear: both;
+    position: relative;
+    bottom: 0;
+    left: 0;
+width: 100%;
+height: 50px;
+background-color: black;
+color: white;
+}
+
+footer p{
+   
+    float: left;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+}
+
+footer li{
+  margin-right: 30px;
+    line-height: 50px;
+    list-style: none;
+    display: inline;
+    float:right;
+
+}
+footer li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
