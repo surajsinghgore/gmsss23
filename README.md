@@ -5,8 +5,7 @@ This project is created by me for my class 12 final year web project
 
 ## Live Project Link
 
-https://res.cloudinary.com/dnxv21hr0/image/upload/v1684506098/simple%20html%20website/Screenshot_265_pqwg3j.png
-
+https://surajsinghgore.github.io/gmsss23
 
 ## Screenshots
 
